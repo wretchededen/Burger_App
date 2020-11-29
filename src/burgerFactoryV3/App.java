@@ -52,7 +52,7 @@ public class App {
                 result = response.equals("Y");
                 isValidChoice = true;
             }
-            System.out.println("Input must be a Y or an N!");
+            else System.out.println("Input must be a Y or an N!");
         }
         return result;
     }
